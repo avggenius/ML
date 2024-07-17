@@ -1,23 +1,59 @@
-## Generative AI
-This is a comprehensive guide to understanding and navigating the realm of Generative AI. Generative AI has gained significant traction in recent years due to its wide range of applications across various domains. From generating realistic images to aiding in natural language processing tasks, Generative AI has revolutionized how we interact with and create content.
-### Modue 1 - Introduction to Generative AI
+# Computer Vision
 
+### Computer Vision Recipies
 
-| Topic                                                     | References                                                                                                                                   |
-| --------------------------------------------------------- |:-------------------------------------------------------------------------------------------------------------------------------------------- |
-| Introduction to Generative AI,Importance and Applications | [Intro to Generartive AI - Google Cloud Tech▶️](https://www.youtube.com/watch?v=G2fqAlgmoPo&pp=ygUdaW50cm9kdWN0aW9uIHRvIGdlbmVyYXRpdmUgYWk%3D) |
-| Autoencoders and Variational Autoencoders (VAEs)          | [Variational Autoencoders - ArxivInsights▶️](https://www.youtube.com/watch?v=9zKuYvjFFS8&t=346s&pp=ygUXdmFyaWF0aW9uYWwgYXV0b2VuY29kZXI%3D)<br> [Autoencoders Explained Easily▶️](https://youtu.be/SSXDkfiPs7c?si=3KD2T44sQQSMFjdG)<br>[Autoencoders - Jeremy Jordan🧾 ](https://www.jeremyjordan.me/autoencoders/)  |
-|Generative Adversarial Networks (GANs)| [A Friendly Introduction to Generative Adversarial Networks (GANs) - Serrano.Academy▶️](https://www.youtube.com/watch?v=8L11aMN5KY8&t=1076s&pp=ygUER2Fucw%3D%3D) <br> [6 GAN Architectures You Really Should Know - neptune.ai🧾](https://neptune.ai/blog/6-gan-architectures)|
-|Autoregressive Models and RBMs|[Guide to Autoregressive Models- Turing🧾](https://www.turing.com/kb/guide-to-autoregressive-models)<br> [Autoregressive Diffusion Models - Yannic Kilcher▶️](https://www.youtube.com/watch?v=2h4tRsQzipQ)<br>[Restricted Boltzmann Machines (RBM)- Serrano.Academy▶️](https://www.youtube.com/watch?v=Fkw0_aAtwIw)<br>|
-|Text Generation and Language Modeling| [Text Generation-HuggingFace](https://huggingface.co/tasks/text-generation)🧾|
+[microsoft / computervision-recipes : Best Practices, code samples, and documentation for Computer Vision.](https://github.com/microsoft/computervision-recipes)
 
-### Module 2 - Deep Learning Based  Natural Language Processing
-| Topic | References |
-| ----- |:---------- |
-|   Word Embedding    |  [Word Embedding and Word2Vec -StatQuest](https://www.youtube.com/watch?v=viZrOnJclY0)▶️<br> [Word2Vec, GloVe, FastText- CodeEmporium](https://www.youtube.com/watch?v=9S0-OC4LFNo&t=386s&pp=ygUQV29yZCBFbWJlZGRpbmdzIA%3D%3D)▶️<br> |
-|Representation Learning|[Representation Learning Complete Guide-AIM](https://analyticsindiamag.com/a-comprehensive-guide-to-representation-learning-for-beginners/#:~:text=Representation%20learning%20is%20a%20class,them%20to%20a%20given%20activity.)🧾|
-|Sequence-to-Sequence Models,Encoder-Decoder Architectures|[Sequence-to-Sequence (seq2seq) EncoderDecoder Neural Networks - StatQuest](https://www.youtube.com/watch?v=L8HKweZIOmg&pp=ygUbU2VxdWVuY2UtdG8tU2VxdWVuY2UgTW9kZWxz)▶️<br>[EncoderDecoder Seq2Seq Models - Kriz Moses](https://medium.com/analytics-vidhya/encoder-decoder-seq2seq-models-clearly-explained-c34186fbf49b)🧾|
-|seq2seq with Attention|[Sequence to Sequence (seq2seq) and Attention - Lena Voita](https://lena-voita.github.io/nlp_course/seq2seq_and_attention.html)🧾<br>[Attention for Neural Networks-StatQuest](https://www.youtube.com/watch?v=PSs6nxngL6k&pp=ygUsU2VxdWVuY2UgdG8gU2VxdWVuY2UgKHNlcTJzZXEpIGFuZCBBdHRlbnRpb24%3D)▶️|
-|Self Attention,Transformers| [Introduction to Transformers - Andrej Karpathy](https://www.youtube.com/watch?v=XfpMkf4rD6E)▶️<br>[Attention for Neural Networks-StatQuest](https://www.youtube.com/watch?v=PSs6nxngL6k)▶️<br>[Self attention-H2O.ai](https://h2o.ai/wiki/self-attention/)🧾<br>[What are Transformer Models and how do they work?-Serrano.Academy](https://www.youtube.com/watch?v=qaWMOYf4ri8)▶️|
-|Self-Supervised Learning |[Self-Supervised Learning: The Dark Matter of Intelligence-Yannic Kilcher](https://www.youtube.com/watch?v=Ag1bw8MfHGQ)▶️<br>[Self-Supervised Learning and Its Applications-neptune.ai🧾](https://neptune.ai/blog/self-supervised-learning)|
-|Advanced NLP|[Stanford CS224N: NLP with Deep Learning▶️](https://www.youtube.com/watch?v=rmVRLeJRkl4&list=PLoROMvodv4rMFqRtEuo6SGjY4XbRIVRd4&pp=iAQB)<br>[Natural Language Processing: Advance Techniques🧾](https://medium.com/analytics-vidhya/natural-language-processing-advance-techniques-in-depth-analysis-b67bca5db432) |
+### Image Classification
+
+A form of inference in which an object in an image is determined to be of a particular class, such as a cat vs. a dog.
+
+### Object Detection
+
+A form of inference in which objects within an image are detected, and a bounding box is output based on where in the image the object was detected. Usually, this is combined with some form of classification to also output which class the detected object belongs to.
+
+### Semantic Segmentation
+
+A form of inference in which objects within an image are detected and classified on a pixel-by-pixel basis, with all objects of a given class given the same label.
+
+- [Semantic Segmentation](https://thegradient.pub/semantic-segmentation/)
+
+### Instance Segmentation
+
+Similar to semantic segmentation, this form of inference is done on a pixel-by-pixel basis, but different objects of the same class are separately identified.
+
+### [SSD](https://arxiv.org/abs/1512.02325)
+
+Single Shot MultiBox Detector. A neural network combining object detection and classification, with different feature extraction layers directly feeding to the detection layer, using default bounding box sizes and shapes.
+
+- [Understanding SSD MultiBox — Real-Time Object Detection In Deep Learning](https://towardsdatascience.com/understanding-ssd-multibox-real-time-object-detection-in-deep-learning-495ef744fab)
+
+### [YOLO](https://arxiv.org/abs/1506.02640)
+
+One of the original neural networks to only take a single look at an input image, whereas earlier networks ran a classifier multiple times across a single image at different locations and scales.
+
+- [YOLOv4 in the CLOUD: Build and Train Custom Object Detector (FREE GPU)](https://www.youtube.com/watch?v=mmj3nxGT2YQ&ab_channel=TheAIGuy)
+- [YOLOv4-Cloud-Tutorial - Code](https://github.com/theAIGuysCode/YOLOv4-Cloud-Tutorial)
+- [The AI Guy](https://www.youtube.com/channel/UCrydcKaojc44XnuXrfhlV8Q/videos)
+
+### [Faster R-CNN](https://arxiv.org/abs/1506.01497)
+
+A network, expanding on [R-CNN](https://arxiv.org/pdf/1311.2524.pdf) and [Fast R-CNN](https://arxiv.org/pdf/1504.08083.pdf), that integrates advances made in the earlier models by adding a Region Proposal Network on top of the Fast R-CNN model for an integrated object detection model.
+
+### [MobileNet](https://arxiv.org/abs/1704.04861)
+
+A neural network architecture optimized for speed and size with minimal loss of inference accuracy through the use of techniques like [1x1 convolutions](https://stats.stackexchange.com/questions/194142/what-does-1x1-convolution-mean-in-a-neural-network). As such, MobileNet is more useful in mobile applications that substantially larger and slower networks.
+
+### [ResNet](https://arxiv.org/abs/1512.03385)
+
+A very deep neural network that made use of residual, or “skip” layers that pass information forward by a couple of layers. This helped deal with the [vanishing gradient problem](https://towardsdatascience.com/the-vanishing-gradient-problem-69bf08b15484) experienced by deeper neural networks.
+
+### [Inception](https://arxiv.org/pdf/1409.4842.pdf)
+
+A neural network making use of multiple different convolutions at each “layer” of the network, such as 1x1, 3x3 and 5x5 convolutions. The top architecture from the original paper is also known as GoogLeNet, an homage to [LeNet](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf), an early neural network used for character recognition.
+
+## Cool CVProjects
+
+### [DeOldify](https://github.com/jantic/DeOldify)
+
+A Deep Learning based project for colorizing and restoring old images (and video!)
